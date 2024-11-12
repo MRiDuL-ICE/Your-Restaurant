@@ -6,7 +6,7 @@ import "../../src/index.css";
 const Header = () => {
   return (
     <div className="">
-      <div className="navbar fixed md:pt-6 pt-10 px-8 md:px-60 z-10">
+      <div className="navbar fixed md:pt-6 pt-10 px-10 md:px-60 z-10">
         <div className="navbar-start flex  items-center gap-14">
           <span className="">
             <img className="" src={logo} alt="" />
@@ -39,7 +39,7 @@ const Header = () => {
           <button className="md:btn hidden md:bg-[#FEBF00] md:border-none md:rounded-sm">
             Book A Table
           </button>
-          <div className="dropdown flex flex-row-reverse">
+          <div className="dropdown flex flex-row-reverse z-10">
             <div
               tabIndex={0}
               role="button"
